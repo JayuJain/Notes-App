@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Vujahday+Script&display=swap');
+/* *{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #2a363b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+       width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+}
+
+.main-container{
+    border: 10px solid red;
+    background-color: #99b898;
+    width: 800px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2A363B;
+}
+
+.main-container{
+    background-color: #99B898;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#note-title{
+    width: 200px;
+    padding: 5px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+
+#note-text{
+    padding: 5px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    outline: none;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#add-btn{
+    background-color: #2A363B;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    border: #99B898 1px solid;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin: 5px 0px;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+}
+
+
+
+.note-counter{
+    font-size: 20px;
+}
+
+.note-title{
+    font-size: 18px;
+}
+
+::placeholder{
+    color: grey;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.note-text{
+    font-size: 18px;
+}
+
+
+.note-btn{
+    background-color: #2A363B;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    border: #99B898 1px solid;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
